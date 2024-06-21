@@ -1,0 +1,32 @@
+html, body { margin:0; padding:0; height:100%; }
+html { background:#D9E3CB url('images/tree.png') left bottom no-repeat fixed; }
+body { background:transparent url('images/head.png') left -8px repeat-x; }
+body, input, td, th, textarea, option, select { font-family:"lucida grande",tahoma,verdana,arial,sans-serif; }
+
+a { text-decoration:none; color:#8b0000; }
+a:hover { text-decoration:underline; }
+
+#container { width:802px; margin:0 auto; min-height:100%; position:relative; background:url('images/bg.png') left top repeat-y; padding:0 8px; overflow:hidden; }
+#head { background:black; height:70px; position:relative; overflow:hidden; }
+#head h1 { display:none; }
+#head h2 { display:none; }
+#head #logo { text-decoration:none; background:url('images/logo.png') left top no-repeat; width:180px; height:60px; position:absolute; left:15px; top:5px; }
+#menu { margin:0 0 0 330px; padding:0 0 0 0px; list-style-type:none; height:70px; overflow:hidden; }
+#menu li { margin:0px 0 0 0px; padding:0 0px; float:left; height:70px; line-height:70px; background:transparent; }
+#menu li a { color:#8d8d8d; font-size:12px; padding:0 12px; }
+#menu li a:hover { color:white; text-decoration:none; }
+#menu li.selected { background:url('images/sel.jpg') center bottom no-repeat; }
+#menu li.selected a, #menu li.selected a:hover { color:white; text-decoration:none; }
+
+#sidebar { width:190px; float:left; margin:10px 0px 10px 10px; border-bottom:40px solid white; }
+#content { border-bottom:40px solid white; margin:10px 10px 0 215px; padding:0 0 0 15px; border-left:1px dotted silver; overflow:hidden; }
+body.nosidebar #sidebar { display:none; }
+body.nosidebar #content { margin-left:10px; padding-left:0; border-left:0 none; }
+#footer { position:absolute; bottom:0; left:0px; width:818px; background:#d9e3cb url('images/footer.png') left top no-repeat; height:20px; padding:20px 12px 0 12px; line-height:15px; }
+#footer a { font-size:7pt; color:#333; float:left; margin-left:10px; }
+#footer span { font-size:7pt; color:#999; float:right; margin-right:30px; }
+#footer span a { float:none; margin:0; }
+
+
+#sidebar #download { display:block; width:190px; height:45px; background:url("images/abg.png") center top no-repeat; padding:5px 0 0 0px; text-decoration:none; color:white; font-weight:bold; font-size:14px; font-family:Georgia; text-shadow:0px 1px 2px #000; text-align:center; line-height:1em; }
+#sidebar p.download_date { color:#666; font-size:1.1em; text-align:center; margin:-5px 0 12px 0; }

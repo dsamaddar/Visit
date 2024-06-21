@@ -1,0 +1,18 @@
+
+dropdown
+- capacity utilization
+- turnover growth
+- business expansion
+number
+- liability position
+- current stock
+text
+- warehouse (same as factory/registered address/open)
+
+visit officials
+- load list of personnel
+
+Remove
+- Review of Previous/New Risk Factors & Mitigation
+- Any Change in Business Operation
+

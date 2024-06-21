@@ -1,0 +1,185 @@
+/*table.yui 
+{
+	font-family:arial;   
+    border-collapse:collapse;	
+    border: solid 3px #7f7f7f;
+    font-size:small;
+}*/
+table.yui {
+	font-family:arial;   
+    border-collapse:collapse;	
+    border: solid 3px #7f7f7f;
+    font-size:small;
+    border-spacing:3px;
+}
+
+table.yui td {	
+	padding: 5px;
+	border-right: solid 1px #7f7f7f;
+	border-top: solid 1px #7f7f7f;
+	border-left: solid 1px #7f7f7f;
+	border-bottom:solid 1px #7f7f7f;
+	height:5px;
+	font-size:small; 
+}
+table.yui .even {
+	background-color: #fff;
+}
+table.yui .odd {
+	background-color: #edf5f0;
+}
+
+table.yui .highlight {
+	background-color: #8888FF 
+}
+
+table.yui th
+{
+    background:#E3E1E1; /*url('fanta.png') repeat-x 0px 0px;    		*/
+	border: 1px solid #7f7f22;
+    padding: 3px;
+	height:10px;
+	cursor:pointer;
+	text-align:left;
+	border-color:Gray; 
+	font-size:small;
+    font-family:Calibri, Tahoma;
+    
+}
+/*table.yui th{
+    background:url('fanta.png') repeat-x 0px 0px;    		
+	border: 1px solid #7f7f22;
+    padding: 3px;
+	height:10px;
+	cursor:pointer;
+	text-align:left;
+	border-color:Gray; 
+	font-size:small;
+}*/
+
+table.yui1 th{
+    background: url('fanta1.png') repeat-x 0px 0px;    		
+	border: 1px solid #7f7f22;
+    padding: 5px;
+	height: auto;
+	cursor:pointer;
+	text-align:left;
+	border-color:Red; 
+	font-size:small;
+}
+
+table.yui ts{
+    background: url('fanta.png') repeat-x 0px 0px;    		
+	border: 1px solid #7f7f22;
+    padding: 5px;
+	height: auto;
+	cursor:pointer;
+	text-align:left;
+}
+
+table.hd td{
+    background: url('fanta.png') repeat-x 0px 0px;    		
+	border: 1px solid #7f7f7f;
+    padding: 5px;
+	height: auto;
+	cursor:pointer;
+	text-align:left;
+}
+
+  
+table.yui th a{
+	text-decoration: none;
+	text-align: center;    	
+    padding-right: 20px;
+    font-weight:bold;
+    white-space:nowrap;
+    background: url('bg.gif') no-repeat right 50%;
+}
+
+table.yui thead .headerSortUp , table.yui thead .headerSortDown 
+{
+    background: url('sprite.png') repeat-x 0px -100px;
+}
+
+table.yui .headerSortUp a 
+{	
+    background: url('asc.gif') no-repeat right 50%;
+}
+table.yui .headerSortDown a 
+{    
+    background: url('desc.gif') no-repeat right 50%;
+}
+
+table.yui tfoot td
+{    
+    border-top: 1px solid #7f7f7f;
+    background-color:#E1ECF9;
+}
+
+table.yui thead td
+{
+    vertical-align:middle;
+    background-color:#E1ECF9;
+    border:none;
+}
+
+table.yui thead .tableHeader
+{
+    font-size:small;
+    font-weight:bold;
+}
+
+table.yui thead .filter
+{
+    text-align:right;
+}
+
+table.yui tfoot
+{
+    background-color:#E1ECF9;
+    text-align:left;      
+}
+
+table.yui .tablesorterPager {
+	padding: 10px 0 10px 0;		
+}
+table.yui .tablesorterPager span {
+	padding: 0 5px 0 5px;
+}
+table.yui .tablesorterPager input.prev {
+	width: auto;
+	margin-right: 10px;
+}
+table.yui .tablesorterPager input.next {
+	width: auto;
+	margin-left: 10px;
+}
+table.yui .pagedisplay 	
+{
+    font-size:small;
+	width: 200px;
+	border: 0px;	
+	background-color: #E1ECF9;
+	text-align:center;
+    vertical-align:top;
+}
+.tdLoginView{
+    font-family:Calibri;
+    font-size:14px;
+}
+.tdSoftwareName {
+    font-family: Calibri;
+    font-size: 22px;
+}
+.tdTaskDiv{
+    font-family: Calibri;
+    font-size: 12px;
+}
+.tdTasNotMsgDiv{
+    font-family: Calibri;
+    font-size: 12px;
+}
+.tblButtonPanel {
+    /*width:100%;
+    border:1px solid black;*/
+}

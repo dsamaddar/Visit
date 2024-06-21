@@ -1,0 +1,36 @@
+﻿div.scrollTableContainer {
+height: 150px;
+overflow: auto;
+width: 100%;
+margin: 15px 0 0 0;
+position: relative;
+}
+
+/* The different widths below are due to the way the scroll bar is implamented */
+
+/* All browsers (but especially IE) */
+div.scrollTableContainer table {
+width: 100%;
+}
+
+/* Modern browsers (but especially firefox ) */
+html>/**/body div.scrollTableContainer table {
+width: 100%;
+}
+
+/* Modern browsers (but especially firefox ) */
+html>/**/body div.scrollTableContainer table>tbody {
+overflow: auto;
+height: 150px;
+overflow-x: hidden;
+}
+
+div.scrollTableContainer thead tr {
+position:relative;
+top: expression(offsetParent.scrollTop); /*IE5+ only*/
+/* fixes the header being over too far in IE, doesn’t seem to affect FF */
+left: 0px;
+}
+
+/*prevent Mozilla scrollbar from hiding cell content*/
+div.scrollTableContainer td:last-child {padding-right: 20px;}
